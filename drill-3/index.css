@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+article {
+   padding: 50px;
+}
+
+header {
+    background-color: rgb(187, 187, 187);
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.square {
+    height:50px;
+    width: 50px;
+    background-color: rgb(154, 195, 228);
+}
+
+.stripe {
+    height: 25vh;
+}
+
+.blue {
+    background-color: rgb(92, 137, 196);
+}
+
+.mint {
+    background-color: rgb(119, 228, 173);
+}
+
+.lime {
+    background-color: rgb(213, 238, 178);
+}
+
+.yellow {
+    background-color: rgb(224, 224, 114);
+}
+
+.question {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
+
+button {
+    position: sticky;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+}
